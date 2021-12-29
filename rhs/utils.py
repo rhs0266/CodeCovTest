@@ -1,4 +1,4 @@
-from classes import Base, A
+from rhs.classes import Base, A
 
 def print(x):
-    x.print()
+    return x.print()

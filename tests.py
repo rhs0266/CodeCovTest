@@ -6,10 +6,10 @@ from rhs.utils import print
 
 class TestMethods(unittest.TestCase):
     def test_Base_print(self):
-        self.assertEqual(print(Base), True)
+        self.assertEqual(print(Base()), True)
     
     def test_A_print(self):
-        self.assertEqual(print(A), False)
+        self.assertEqual(print(A()), False)
 
 
 if __name__ == "__main__":
